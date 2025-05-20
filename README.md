@@ -88,7 +88,10 @@ print(s.getsockname())
 print(s.recv(1024).decode()) 
 s.send("acknowledgement recived from the server".encode())
 ```
+# OUTPUT
+## CLINT
 ![image](https://github.com/user-attachments/assets/8e7e9335-b9cd-4867-a865-fc3ed4aff679)
+## SERVER
 ![image](https://github.com/user-attachments/assets/71ed8eee-a231-4074-be22-938beee1f259)
 
 
